@@ -1,34 +1,44 @@
-# Django Role-Based Access Control (RBAC) System
+Sistema de Control de Acceso Basado en Roles (RBAC) con Django
+Descripción
 
-A complete Role-Based Access Control (RBAC) system built with Django, featuring secure login, dynamic role assignment, and role-specific dashboards.  
-Supports four user roles: **Admin**, **Manager**, **Staff**, and **Viewer** — each with different levels of access.
+Este proyecto implementa un sistema de Control de Acceso Basado en Roles (RBAC) desarrollado con Django. Su objetivo es gestionar el acceso a los recursos de una aplicación web según el rol asignado a cada usuario.
 
----
+El sistema incorpora autenticación de usuarios, gestión de roles y paneles personalizados para cada perfil, permitiendo aplicar principios fundamentales de seguridad informática como autenticación, autorización y mínimo privilegio.
 
-## 🔐 Features
-
-- ✅ Role-based login and access control
-- ✅ 4 predefined user roles: Admin, Manager, Staff, Viewer
-- ✅ Admin dashboard to create and manage users with roles
-- ✅ Secure authentication and session management
-- ✅ Custom decorators to restrict views based on roles
-- ✅ Clean and modular code structure for scalability
-
----
-
-## 📂 Technologies Used
-
-- Python 3.x  
-- Django 4.x  
-- SQLite3 (default)  
-- HTML/CSS (basic templates)  
-
----
-
-## 🚀 Setup Instructions
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/TanbirAnjumNiloy/django-role-based-access-control.git
-cd django-role-based-access-control
+Objetivos
+Implementar un sistema de autenticación de usuarios.
+Aplicar el modelo de Control de Acceso Basado en Roles (RBAC).
+Restringir el acceso a funcionalidades según el rol del usuario.
+Gestionar usuarios y permisos desde una interfaz administrativa.
+Comprender conceptos de seguridad relacionados con autenticación y autorización.
+Roles Implementados
+Administrador (Admin)
+Acceso total al sistema.
+Creación y gestión de usuarios.
+Asignación de roles.
+Administración de permisos.
+Docente (Teacher)
+Acceso al panel docente.
+Gestión de actividades académicas.
+Consulta de estudiantes y materias asignadas.
+Registro y consulta de calificaciones.
+Estudiante (Student)
+Acceso al panel estudiantil.
+Consulta de materias inscritas.
+Visualización de tareas y calificaciones.
+Acceso a información personal.
+Características del Sistema
+Inicio de sesión seguro.
+Gestión de sesiones de usuario.
+Control de acceso basado en roles.
+Dashboards personalizados para cada rol.
+Restricción de vistas mediante decoradores personalizados.
+Administración de usuarios desde el panel administrativo.
+Arquitectura modular y escalable.
+Tecnologías Utilizadas
+Python 3
+Django
+SQLite
+HTML5
+CSS3
+JavaScript
